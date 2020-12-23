@@ -1,0 +1,17 @@
+.Dice {
+  min-width: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .Dice{
+    justify-content: center;
+  }
+  .Die{
+    margin-right: 0.3rem;
+  }  
+  .Die:last-child{
+    margin-right: 0.0rem;
+  }  
+}
